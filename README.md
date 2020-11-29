@@ -39,7 +39,7 @@ TAG LINE
 
 #### init.zsh:
 
-- p6df::modules::awscdkk8s::deps()
+- p6df::modules::awscdk8s::deps()
 - p6df::modules::awscdkk8s::external::brew()
 - p6df::modules::awscdkk8s::home::symlink()
 - p6df::modules::awscdkk8s::init()
