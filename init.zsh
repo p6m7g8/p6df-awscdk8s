@@ -2,56 +2,55 @@
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::deps()
+# Function: p6df::modules::awscdkk8s::deps()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::deps() {
+p6df::modules::awscdkk8s::deps() {
   ModuleDeps=(
     p6m7g8/p6df-awscdk
     p6m7g8/p6df-kubernetes
-    hashicorp/terraform-cdk
   )
 }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::external::brew()
+# Function: p6df::modules::awscdkk8s::external::brew()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::external::brew() { }
+p6df::modules::awscdkk8s::external::brew() { }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::langs()
+# Function: p6df::modules::awscdkk8s::langs()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::langs() {
+p6df::modules::awscdkk8s::langs() {
 
-  npm install -g cdktf-cli@next
+  npm install -g cdkk8s-cli@next
 }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::home::symlink()
+# Function: p6df::modules::awscdkk8s::home::symlink()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::home::symlink() { }
+p6df::modules::awscdkk8s::home::symlink() { }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdktf::init()
+# Function: p6df::modules::awscdkk8s::init()
 #
 #>
 ######################################################################
-p6df::modules::awscdktf::init() {
+p6df::modules::awscdkk8s::init() {
 
   true
 }
