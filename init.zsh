@@ -6,7 +6,7 @@
 #
 #>
 ######################################################################
-p6df::modules::awscdkk8s::deps() {
+p6df::modules::awscdk8s::deps() {
   ModuleDeps=(
     p6m7g8/p6df-awscdk
     p6m7g8/p6df-kubernetes
