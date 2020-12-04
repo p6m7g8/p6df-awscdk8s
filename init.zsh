@@ -31,7 +31,7 @@ p6df::modules::awscdkk8s::external::brew() { }
 ######################################################################
 p6df::modules::awscdkk8s::langs() {
 
-  npm install -g cdkk8s-cli@next
+  npm install -g cdk8s-cli@next
 }
 
 ######################################################################
