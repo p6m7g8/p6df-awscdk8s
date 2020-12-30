@@ -1,14 +1,13 @@
-
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdk8s::deps()
+# Function: p6df::modules::cdk8s::deps()
 #
 #>
 ######################################################################
-p6df::modules::awscdk8s::deps() {
+p6df::modules::cdk8s::deps() {
   ModuleDeps=(
-    p6m7g8/p6df-awscdk
+    awslabs/cdk8s
     p6m7g8/p6df-kubernetes
   )
 }
@@ -16,41 +15,26 @@ p6df::modules::awscdk8s::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdkk8s::external::brew()
+# Function: p6df::modules::cdk8s::langs()
 #
 #>
 ######################################################################
-p6df::modules::awscdkk8s::external::brew() { }
+p6df::modules::cdk8s::langs() {
 
-######################################################################
-#<
-#
-# Function: p6df::modules::awscdkk8s::langs()
-#
-#>
-######################################################################
-p6df::modules::awscdkk8s::langs() {
-
-  npm install -g cdk8s-cli@next
+  npm uninstall -g cdk8s-cli
+  npm install -g cdk8s-cli
+  npm list -g -depth 0
+  nodenv rehash
 }
 
 ######################################################################
 #<
 #
-# Function: p6df::modules::awscdkk8s::home::symlink()
+# Function: p6df::modules::cdk8s::init()
 #
 #>
 ######################################################################
-p6df::modules::awscdkk8s::home::symlink() { }
-
-######################################################################
-#<
-#
-# Function: p6df::modules::awscdkk8s::init()
-#
-#>
-######################################################################
-p6df::modules::awscdkk8s::init() {
+p6df::modules::cdk8s::init() {
 
   true
 }

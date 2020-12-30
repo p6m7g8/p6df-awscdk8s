@@ -1,10 +1,10 @@
-# p6df-awscdk8s
+# p6df-cdk8s
 
 ## Table of Contents
 
 
-### p6df-awscdk8s
-- [p6df-awscdk8s](#p6df-awscdk8s)
+### p6df-cdk8s
+- [p6df-cdk8s](#p6df-cdk8s)
   - [Badges](#badges)
   - [Distributions](#distributions)
   - [Summary](#summary)
@@ -17,12 +17,12 @@
 ### Badges
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/p6m7g8/p6df-awscdk8s)
-[![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/p6df-awscdk8s/&style=flat)](https://mergify.io)
-[![codecov](https://codecov.io/gh/p6m7g8/p6df-awscdk8s/branch/master/graph/badge.svg?token=14Yj1fZbew)](https://codecov.io/gh/p6m7g8/p6df-awscdk8s)
-[![Known Vulnerabilities](https://snyk.io/test/github/p6m7g8/p6df-awscdk8s/badge.svg?targetFile=package.json)](https://snyk.io/test/github/p6m7g8/p6df-awscdk8s?targetFile=package.json)
-[![Gihub repo dependents](https://badgen.net/github/dependents-repo/p6m7g8/p6df-awscdk8s)](https://github.com/p6m7g8/p6df-awscdk8s/network/dependents?dependent_type=REPOSITORY)
-[![Gihub package dependents](https://badgen.net/github/dependents-pkg/p6m7g8/p6df-awscdk8s)](https://github.com/p6m7g8/p6df-awscdk8s/network/dependents?dependent_type=PACKAGE)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/p6m7g8/p6df-cdk8s)
+[![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/p6df-cdk8s/&style=flat)](https://mergify.io)
+[![codecov](https://codecov.io/gh/p6m7g8/p6df-cdk8s/branch/master/graph/badge.svg?token=14Yj1fZbew)](https://codecov.io/gh/p6m7g8/p6df-cdk8s)
+[![Known Vulnerabilities](https://snyk.io/test/github/p6m7g8/p6df-cdk8s/badge.svg?targetFile=package.json)](https://snyk.io/test/github/p6m7g8/p6df-cdk8s?targetFile=package.json)
+[![Gihub repo dependents](https://badgen.net/github/dependents-repo/p6m7g8/p6df-cdk8s)](https://github.com/p6m7g8/p6df-cdk8s/network/dependents?dependent_type=REPOSITORY)
+[![Gihub package dependents](https://badgen.net/github/dependents-pkg/p6m7g8/p6df-cdk8s)](https://github.com/p6m7g8/p6df-cdk8s/network/dependents?dependent_type=PACKAGE)
 
 ## Summary
 
@@ -42,11 +42,9 @@
 
 #### init.zsh:
 
-- p6df::modules::awscdk8s::deps()
-- p6df::modules::awscdkk8s::external::brew()
-- p6df::modules::awscdkk8s::home::symlink()
-- p6df::modules::awscdkk8s::init()
-- p6df::modules::awscdkk8s::langs()
+- p6df::modules::cdk8s::deps()
+- p6df::modules::cdk8s::init()
+- p6df::modules::cdk8s::langs()
 
 
 ## Author
