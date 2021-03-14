@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6df-cdk8s:
+
+#### p6df-cdk8s/init.zsh:
 
 - p6df::modules::cdk8s::deps()
 - p6df::modules::cdk8s::init()
