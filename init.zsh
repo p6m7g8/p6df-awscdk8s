@@ -7,8 +7,8 @@
 ######################################################################
 p6df::modules::cdk8s::deps() {
   ModuleDeps=(
-    awslabs/cdk8s
-    p6m7g8/p6df-kubernetes
+#	cdk8s-team/cdk8s
+	p6m7g8/p6df-kubernetes
   )
 }
 
