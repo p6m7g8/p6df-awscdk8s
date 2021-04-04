@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/p6m7g8/p6df-cdk8s/compare/v1.1.0...v1.1.1) (2021-04-04)
+
+
+### Bug Fixes
+
+* **init:** major cleanup ([#7](https://github.com/p6m7g8/p6df-cdk8s/issues/7)) ([0c4134a](https://github.com/p6m7g8/p6df-cdk8s/commit/0c4134a523b78a928572fbab2e2fd6be65116f9e))
+
+
+* **deps:** awslabs/cdk8s -> cdk8s-team/cdk8s ([#9](https://github.com/p6m7g8/p6df-cdk8s/issues/9)) ([04d091a](https://github.com/p6m7g8/p6df-cdk8s/commit/04d091a8d7bca0086713c2663a6a1759700fffd4))
+* **README:** updates generator ([#8](https://github.com/p6m7g8/p6df-cdk8s/issues/8)) ([59089a4](https://github.com/p6m7g8/p6df-cdk8s/commit/59089a423a6d5b1cdffb260a8e8258a534cb4a5b))
+* Coc -> .github ([d210077](https://github.com/p6m7g8/p6df-cdk8s/commit/d2100779549e0e0ab3d495cff54d6124be1be07a))
+
 ## 1.1.0 (2020-12-06)
 
 
